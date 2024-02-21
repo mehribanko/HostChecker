@@ -40,7 +40,8 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 
 ## 1. Register - POST /api/auth/register
 
-     유저가 직접 앱에 등록할 수 있게 해주는 기능 API (테이블에 dummy 데이터가 없어서 간단한 register 기능을 구현해봤습니다.  유저 이메일/ 이름 중복 확인 validation 하지 않습니다 ) 
+유저가 직접 앱에 등록할 수 있게 해주는 기능 API (테이블에 dummy 데이터가 없어서 간단한 register 기능을 구현해봤습니다.  
+유저 이메일/ 이름 중복 확인 validation 하지 않습니다 ) 
 
 **Parameters:** 
 

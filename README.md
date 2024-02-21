@@ -40,8 +40,7 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 
 ## 1. Register - POST /api/auth/register
 
-      **Description**: 
-      유저가 직접 앱에 등록할 수 있게 해주는 기능 API (테이블에 dummy 데이터가 없어서 간단한 register 기능을 구현해봤습니다.  유저 이메일/ 이름 중복 확인 validation 하지 않습니다 ) 
+     유저가 직접 앱에 등록할 수 있게 해주는 기능 API (테이블에 dummy 데이터가 없어서 간단한 register 기능을 구현해봤습니다.  유저 이메일/ 이름 중복 확인 validation 하지 않습니다 ) 
 
 **Parameters:** 
 
@@ -68,7 +67,6 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 
 ## 2. Login -  POST /api/auth/authenticate
 
-      **Description**: 
       로그인 REST API입니다. 
 
 **Parameters:** 
@@ -94,7 +92,6 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 
 ## 3. Host Register -  POST /api/host/register
 
-      **Description**:  
       관리자인 유저만 access 할 수 있는 host 등록 REST API 입니다.  authenticate해서 얻은 JWT token을 사용해야 합니다. 
 
 **Parameters:** 
@@ -122,8 +119,7 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 ---
 
 ## 4. Host Status (상태) -  GET /api/host/{id}/status
-
-      **Description**:   
+ 
       하나의 호스트 현재 상태 조회 REST API 입니다.  authenticate해서 얻은 JWT token을 사용해야 합니다. 
 
 **Parameters:** 
@@ -149,7 +145,6 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 
 ## 5. Host Monitoring -  GET /api/host/monitor
 
-      **Description**:   
       호스트 상태 모니터링  REST API 입니다. authenticate해서 얻은 JWT token을 사용해야 합니다. 
 
 `/api/host/monitor?hostId=`    hostId 는 입력하지 않으면  호스드들이 다 조회 돼요. 
@@ -175,7 +170,6 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 
 ## 6. Host Monitoring -  GET /api/view/logs
 
-      **Description**:   
       사용자의 로그인, 로그아웃을 포함한 주요 사건에 대한 감사기록을 볼 수 있는  REST API 입니다.  authenticate해서 얻은 JWT token을 사용해야 합니다. 
 
 **Parameters:** 
@@ -213,8 +207,7 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 ---
 
 ## 7. Host 조회 -  GET /api/host/viewhosts
-
-      **Description**:   
+ 
       호스트조회 REST API 입니다.  authenticate해서 얻은 JWT token을 사용해야 합니다. 
 
 **Parameters:** 
@@ -247,8 +240,7 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 ---
 
 ## 8. Host 수정 -  PUT /api/host/{id}
-
-      **Description**:   
+   
       호스트 조회 REST API 입니다.  authenticate해서 얻은 JWT token을 사용해야 합니다. 
 
 **Parameters:** 

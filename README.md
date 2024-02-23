@@ -273,3 +273,8 @@ java -jar HostChecker-0.0.1-SNAPSHOT.jar
 
 소스코드에 다른 기능이 포함 되어 있습니다. ( 활동 시간에 따른 잠금 처리)
 
+비정상 접속 case관련해서 
+연속해서 5번 로그인 실패한 유저를 잠시 lock 하는 기능을 구현하려고 했지만 
+그 부분에서 버그가 계속 생겨서 그 부분을 소스 코드에 포함하지 못했습니다. 
+SpringSecurity의 AuthenticationFailureHandler 방법을 썼었습니다. 
+
